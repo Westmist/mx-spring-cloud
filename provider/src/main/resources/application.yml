@@ -1,0 +1,9 @@
+server:
+  port: 8084
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8888
+  application:
+    name: nacos
